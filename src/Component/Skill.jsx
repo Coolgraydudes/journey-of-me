@@ -30,7 +30,7 @@ export default function Skill() {
         <section
         id="Skill"
         ref={sectionRef}
-        className="h-[100vh] flex flex-col justify-center items-center text-center text-white px-5">
+        className="md:h-[100vh] h-[100vh] flex flex-col justify-center items-center text-center text-white px-5">
             
             {/* 📝 Judul */}
             <h1 className="text-xl md:text-4xl font-QuickSand font-bold leading-snug max-w-[800px]">

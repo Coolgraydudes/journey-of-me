@@ -30,12 +30,19 @@ export default function Nav() {
                 }`}
             >
             <img src={logo} alt="" className='w-[150px]'/>
-            <ul className="flex gap-4 text-lg font-QuickSand">
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#Skill">Skill</a></li>
-                <li><a href="#Project">Project</a></li>
-                <li><a href="#Footer">Contact</a></li>
-            </ul>
+            <div className="hidden md:block">
+              <ul className="flex gap-4 text-lg font-QuickSand">
+                  <li><a href="#Home">Home</a></li>
+                  <li><a href="#Skill">Skill</a></li>
+                  <li><a href="#Project">Project</a></li>
+                  <li><a href="#Footer">Contact</a></li>
+              </ul>
+            </div>
+
+            <div className="md:hidden block">
+
+            </div>
+
             </nav>
         </>
       )

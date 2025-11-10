@@ -34,11 +34,11 @@ export default function Hero() {
 
             {/* Konten di atas video */}
             <div className="relative z-10 text-prim">
-                <div className='flex flex-row gap-2 text-center font-BlackPool text-8xl -mb-[40px] -ml-[40px] '>
+                <div className='flex flex-row gap-2 text-center font-BlackPool text-6xl md:text-8xl md:-mb-[35px] md:-ml-[40px] -mb-[25px] -ml-[25px] '>
                     <h1 className={`${showThis ? "opacity-100" : "opacity-0"}`}>This</h1>
                     <h1 className={`${showIs ? "opacity-100" : "opacity-0"}`}>is</h1>
                 </div>
-                <div className='flex flex-row gap-2 text-center font-Poppins text-8xl font-extrabold'>
+                <div className='flex flex-row gap-2 text-center font-poppins text-6xl md:text-8xl font-extrabold'>
                     <h1 className={`${showMy ? "opacity-100" : "opacity-0"}`}>My</h1>
                     <h1 className={`${showJourney ? "opacity-100" : "opacity-0"}`}>Journey</h1>
                 </div>

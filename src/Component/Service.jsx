@@ -4,11 +4,11 @@
 export default function Service() {
        return (
         <>
-            <section className="h-[100vh] relative flex justify-center items-center text-white">
+            <section className="md:h-[100vh] h-[100vh] relative flex justify-center items-center text-white">
                 <div className="absolute left-8 top-16">
                      <h1 className="text-prim font-QuickSand text-end mx-[48px] text-2xl">What</h1>
                 </div>
-                <div className="flex flex-row justify-center items-center gap-[240px]">
+                <div className="flex md:flex-row flex-col-reverse justify-center items-center md:gap-[200px] gap-[50px]">
                     
                     <div className="" >
                         <p className="w-[350px] text-[20px] mb-5 text-2xl">
@@ -23,8 +23,8 @@ export default function Service() {
                         </button>
                     </div>
                     <div className="text-white">
-                        <h1 className="text-9xl font-poppins font-extrabold text-end">Izzam</h1>
-                        <h1 className="text-9xl font-Poppins font-extrabold">Service</h1>
+                        <h1 className="text-8xl md:text-9xl font-poppins font-extrabold md:text-end text-start">Izzam</h1>
+                        <h1 className="text-8xl md:text-9xl font-Poppins font-extrabold">Service</h1>
                     </div>
                 </div>
             </section> 

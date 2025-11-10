@@ -9,10 +9,10 @@ import Search from './assets/search.svg'
 export default function Doing() {
       return (
         <>
-            <section className="relative h-[110vh] flex flex-col justify-center items-center overflow-hidden">
-                <div className='flex flex-row justify-center items-center gap-12'>
+            <section className="relative h-[150vh] flex flex-col justify-center items-center overflow-hidden">
+                <div className='flex md:flex-row flex-col-reverse justify-center items-center gap-12'>
 
-                    <div className='grid grid-cols-1 md:grid-cols-2 gap-3'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 gap-3 '>
 
                         {/* card 1 */}
                         <div className=" text-white border-2 border-white rounded-lg p-5 w-[300px]">
@@ -74,9 +74,9 @@ export default function Doing() {
 
 
                     <div className='text-white text-start'>
-                        <h1 className='text-9xl font-poppins font-extrabold'>What</h1>
-                        <h1 className='text-9xl font-poppins font-extrabold'>Can I</h1>
-                        <h1 className='text-9xl font-poppins font-extrabold'>Do <span className='text-lg font-normal font-QuickSand -ml-10'>(Aamin)</span></h1>
+                        <h1 className='text-8xl md:text-9xl font-poppins font-extrabold'>What</h1>
+                        <h1 className='text-8xl md:text-9xl font-poppins font-extrabold'>Can I</h1>
+                        <h1 className='text-8xl md:text-9xl font-poppins font-extrabold'>Do <span className='text-lg font-normal font-QuickSand -ml-10'>(Aamin)</span></h1>
                     </div>
 
                 </div>

@@ -8,9 +8,9 @@ export default function Footer() {
         <>
             <section id='Footer' className="h-[80vh] relative flex justify-center text-white  ">
                 <hr className="border-t-2 border-white" />
-                <div className="flex flex-row justify-center items-end pb-10 gap-[350px]">
+                <div className="flex flex-row justify-center items-end pb-10 md:gap-[350px] gap-[30px]">
                 
-                    <div className='items-end'>
+                    <div className='md:items-end items-center'>
                         <h1 className='text-7xl font-poppins font-extrabold'>Get In Touch</h1>
                         <div className='flex gap-6'>
                             <img src={Twit} alt="" />
@@ -20,7 +20,7 @@ export default function Footer() {
                         </div>
                     </div>
 
-                    <div className='items-end'>
+                    <div className='items-end md:block hidden'>
                         <ul className="flex gap-4 text-lg ">
                             <li>Home</li>
                             <li>About</li>
