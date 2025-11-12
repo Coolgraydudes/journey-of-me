@@ -18,7 +18,7 @@ export default function Service() {
                             seamless experience across all
                             devices
                         </p>
-                        <button className="border-2 border-lig dark:border-prim text-lig dark:text-prim px-6 py-2 rounded-lg transition-all hover:bg-prim hover:text-black duration-300">
+                        <button className="border-2 border-lig dark:border-prim text-lig dark:text-prim px-6 py-2 rounded-lg transition-all hover:bg-lig hover:text-nig dark:hover:bg-prim dark:hover:text-black duration-300">
                             Explore Now
                         </button>
                     </div>

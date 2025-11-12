@@ -13,7 +13,7 @@ export default function Prizing() {
                             by Izzamnuddin
                         </p>
 
-                        <button className="border-2  border-lig dark:border-prim text-lig dark:text-prim px-6 py-2 rounded-lg w-[170px] h-[50px]">Get the details</button>
+                        <button className="border-2  border-lig dark:border-prim text-lig dark:text-prim hover:bg-lig hover:text-nig dark:hover:bg-prim dark:hover:text-black px-6 py-2 rounded-lg w-[170px] h-[50px]">Get the details</button>
                     </div>
 
                     <h1 className="text-8xl md:text-9xl font-poppins font-extrabold md:absolute text-center md:-bottom-12 md:left-48">Izzam Prizing</h1>
