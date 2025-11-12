@@ -51,7 +51,7 @@ export default function Slider() {
   }
 
   return (
-    <section className="h-[150vh] max-sm:h-[70vh] flex flex-row max-sm:flex-col items-center overflow-hidden">
+    <section id="Project" className="h-[150vh] max-sm:h-[70vh] flex flex-row max-sm:flex-col items-center overflow-hidden">
       <div></div>
 
 
