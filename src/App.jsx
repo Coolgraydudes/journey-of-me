@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Nav from './Component/Navigation'
 import Hero from './Component/Hero'
 import About from './Component/About'
@@ -9,6 +9,7 @@ import Doing from './Component/Doing'
 import Prizing from './Component/Prizing'
 import Footer from './Component/Footer'
 import Slider from './Component/Project'
+import DarkModeButton from './Component/DarkModeButton'
 
 function App() {
 
@@ -24,6 +25,9 @@ function App() {
       <Doing/>
       <Prizing/>
       <Footer/>
+
+      <DarkModeButton/>
+
     </>
   )
 }

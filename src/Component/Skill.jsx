@@ -30,15 +30,15 @@ export default function Skill() {
         <section
         id="Skill"
         ref={sectionRef}
-        className="md:h-[100vh] h-[100vh] flex flex-col justify-center items-center text-center text-white px-5">
+        className="md:h-[100vh] h-[100vh] flex flex-col justify-center items-center text-center text-nig dark:text-white px-5">
             
             {/* 📝 Judul */}
             <h1 className="text-xl md:text-4xl font-QuickSand font-bold leading-snug max-w-[800px]">
                 With a strong foundation in{" "}
-                <span className="text-prim">UI/UX principles</span>, I create{" "}
-                <span className="text-prim">thoughtful designs</span> that enhance
-                <span className="text-prim"> usability </span> and elevate
-                <span className="text-prim"> brand identity</span>.
+                <span className="text-lig dark:text-prim">UI/UX principles</span>, I create{" "}
+                <span className="text-lig dark:text-prim">thoughtful designs</span> that enhance
+                <span className="text-lig dark:text-prim"> usability </span> and elevate
+                <span className="text-lig dark:text-prim"> brand identity</span>.
             </h1>
 
             {/* 🔢 Statistik */}
@@ -81,7 +81,7 @@ function Counter({ value, label, visible }) {
         visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
       }`}
     >
-      <h2 className="text-[80px] font-extrabold font-Poppins text-prim/40">{count}+</h2>
+      <h2 className="text-[80px] font-extrabold font-Poppins text-lig/40 dark:text-prim/40">{count}+</h2>
       <p className="text-xl font-semibold font-QuickSand">{label}</p>
     </div>
   );

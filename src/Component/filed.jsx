@@ -10,7 +10,7 @@ export default function Projects() {
         <>
             <section id='Project' className="h-[190vh]  relative flex justify-center items-center text-white">
                 <div className="absolute right-9 top-1">
-                     <h1 className="text-prim font-QuickSand text-end mx-[48px] text-2xl">Why</h1>
+                     <h1 className="text-lig dark:text-primfont-QuickSand text-end mx-[48px] text-2xl">Why</h1>
                 </div>
                 <div className="flex flex-col justify-center items-center">
                     <div className='w-[100vw] mb-[40px] font-poppins font-extrabold'>

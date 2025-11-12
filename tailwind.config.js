@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: "class",
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -8,7 +9,8 @@ export default {
     extend: {
       colors: {
         prim : '#fac121',
-        nig : '#0E0E0E'
+        nig : '#0E0E0E',
+        lig : '#4ff29a'
       },
       fontFamily: {
         BlackPool : ['Blackpool', 'sans-serif;'],

@@ -55,7 +55,7 @@ export default function Slider() {
       <div></div>
 
 
-      <div className="text-white font-poppins flex flex-col max-sm:flex-row text-7xl font-bold text-center max-sm:mx-auto ml-auto mr-6">
+      <div className="dark:text-white text-nig font-poppins flex flex-col max-sm:flex-row text-7xl font-bold text-center max-sm:mx-auto ml-auto mr-6">
         <h1>P</h1>
         <h1>r</h1>
         <h1>o</h1>
