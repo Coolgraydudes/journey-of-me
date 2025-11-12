@@ -22,9 +22,10 @@ export default function Footer() {
 
                     <div className='items-end md:block hidden'>
                         <ul className="flex gap-4 text-lg ">
-                            <li>Home</li>
-                            <li>About</li>
-                            <li>Contact</li>
+                            <li><a href="#Home">Home</a></li>
+                            <li><a href="#Skill">Skill</a></li>
+                            <li><a href="#Project">Project</a></li>
+                            <li><a href="#Footer">Contact</a></li>
                         </ul> 
                     </div>
 
