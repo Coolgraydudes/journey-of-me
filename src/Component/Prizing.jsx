@@ -6,8 +6,8 @@ export default function Prizing() {
         <>
             <section className="h-[70vh] relative flex justify-center items-center text-nig dark:text-white dark:bg-nig bg-lig/40">
                 <div>
-                    <div className="flex md:flex-row flex-col gap-[200px] items-end ">
-                        <p className="w-[380px] text-[20px] mb-5 text-2xl">Explore our competitive pricing
+                    <div className="flex md:flex-row flex-col gap-[200px] items-end max-sm:items-center max-sm:gap-5">
+                        <p className="w-[380px] text-[20px] mb-5 text-2xl max-sm:text-center">Explore our competitive pricing
                             packages designed to suit your web
                             design needs and budget, all crafted
                             by Izzamnuddin
