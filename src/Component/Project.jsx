@@ -5,8 +5,12 @@ import Eduverse from './assets/Eduverse.svg'
 import Cisco from './assets/Cisco.svg'
 import Hijai from './assets/Hijai.svg'
 import Coding from './assets/Coding.svg'
+import Slicing from './assets/Slicing.svg'
+import Telat from './assets/Telat.svg'
 
 const images = [
+  Slicing,
+  Telat,
   Coding,
   Hijai,
   Cisco,
