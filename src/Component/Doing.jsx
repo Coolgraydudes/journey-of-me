@@ -84,9 +84,7 @@ export default function Doing() {
         <div className="text-nig dark:text-white text-start">
           <h1 className="text-8xl md:text-9xl font-poppins font-extrabold">What</h1>
           <h1 className="text-8xl md:text-9xl font-poppins font-extrabold">Can I</h1>
-          <h1 className="text-8xl md:text-9xl font-poppins font-extrabold">
-            Do <span className="text-lg font-normal font-QuickSand -ml-10">(Aamin)</span>
-          </h1>
+          <h1 className="text-8xl md:text-9xl font-poppins font-extrabold">Do</h1>
         </div>
       </div>
     </section>

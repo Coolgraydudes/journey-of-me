@@ -11,6 +11,7 @@ import Footer from './Component/Footer'
 import Slider from './Component/Project'
 import DarkModeButton from './Component/DarkModeButton'
 
+
 function App() {
 
   return (
@@ -20,7 +21,7 @@ function App() {
       <About/>
       <Skill/>
       <Service/>
-      <Slider/>
+      {/* <Slider/> */}
       {/* <Projects/> */}
       <Doing/>
       <Prizing/>
