@@ -12,71 +12,74 @@ export default function Card() {
 
   const cards = [
     {
-      desc: "All-Page offers quality books at affordable prices.",
+      desc: "This website is an online bookstore I built, where people can easily explore and buy quality books at affordable prices.",
       img: AllPage,
       link: "https://all-pages-henna.vercel.app/"
     },
     {
-      desc: "Eduverse is an online learning platform that provides accessible, high-quality educational resources for learners of all levels.",
+      desc: "This website is Eduverse, a learning platform I created to help people access simple, clear, and high-quality educational content.",
       img: Eduverse,
       link: "https://fawwazrn.github.io/EDUVERSE/"
     },
     {
-      desc: "My first Tailwind slicing project, it's pretty good",
+      desc: "This is my first website slicing project using Tailwind CSS, where I practiced building a clean and modern landing page layout.",
       img: Slicing,
       link: "https://website-slicing-with-tailwind.vercel.app/"
     },
     {
-      desc: "My first Cisco project, where I began exploring networking concepts and hands-on configurations.",
+      desc: "This is my first Cisco project, where I started learning basic networking and configuring simple network setups.",
       img: Cisco,
+      link: ""
     },
     {
-      desc: "Hijai is a learning app focused on helping users master tajwid through simple, guided lessons—truly a ‘tajwid teacher in your pocket.’",
+      desc: "Hijai is an Android app I built with App Inventor to help people learn tajwid easily—like a tajwid teacher in your pocket.",
       img: Hijai,
       link: ""
     },
     {
-      desc: "This is a project I made to record the names of people who are late going to the mosque for my school",
+      desc: "This is a website I created for my school to record and track students who arrive late to the mosque, making the monitoring process simpler and more organized.",
       img: Telat,
       link: "https://catatan-telat.vercel.app/"
     },
     {
-      desc: "A celebratory Eid Mubarak website created to share greetings, spread joy, and bring people together through messages of peace and blessings.",
+      desc: "This is a website I created for Eid Mubarak to share greetings, spread joy, and celebrate the special day in a simple and meaningful way.",
       img: Eid,
       link: "https://eidmubarak-tailwind.vercel.app/"
     },
   ];
 
   return (
-    <section className="min-h-screen flex flex-col items-center p-10">
+    <section className="min-h-screen flex flex-col items-start p-6 sm:p-10">
 
       {/* Title */}
-      <h2 className="text-white text-7xl font-bold mb-10 font-poppins w-[87%] text-start">
+      <h2 className="text-white font-bold font-poppins text-5xl sm:text-6xl md:text-7xl mb-10">
         Latest Project
       </h2>
 
       {/* Cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 w-full">
 
         {cards.map((card, index) => (
           <div
             key={index}
             style={{ backgroundImage: `url(${card.img})` }}
-            className="relative w-[320px] h-[200px] rounded-2xl bg-cover bg-center overflow-hidden group cursor-pointer font-QuickSand"
+            className="relative w-full aspect-[16/10] rounded-2xl bg-cover bg-center overflow-hidden group cursor-pointer font-QuickSand"
           >
 
-            {/* Hover View Only */}
+            {/* Hover View */}
             <div className="absolute inset-0 bg-black/70 text-white flex flex-col items-center justify-center px-6 text-center opacity-0 transition-all duration-300 group-hover:opacity-100">
               
               <p className="text-sm leading-relaxed mb-4">
                 {card.desc}
               </p>
 
-              <button 
-              onClick={() => window.open(card.link, "_blank")}
-              className="border-2 border-lig font-QuickSand font-semibold dark:border-prim text-lig dark:text-prim px-6 py-2 rounded-lg transition-all hover:bg-lig hover:text-nig dark:hover:bg-prim dark:hover:text-black duration-300">
-                VISIT
-              </button>
+              {card.link && (
+                <button 
+                  onClick={() => window.open(card.link, "_blank")}
+                  className="border-2 border-lig font-QuickSand font-semibold dark:border-prim text-lig dark:text-prim px-6 py-2 rounded-lg transition-all hover:bg-lig hover:text-nig dark:hover:bg-prim dark:hover:text-black duration-300">
+                  VISIT
+                </button>
+              )}
             </div>
 
           </div>
