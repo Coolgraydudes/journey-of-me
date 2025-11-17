@@ -5,7 +5,7 @@ import Hijai from './assets/Hijai.svg'
 import Coding from './assets/Coding.svg'
 import Slicing from './assets/Slicing.svg'
 import Telat from './assets/Telat.svg'
-
+import Eid from './assets/Eid.svg'
 
 
 export default function Card() {
@@ -36,13 +36,20 @@ export default function Card() {
       img: Telat
     },
     {
-      desc: "Discover your next favorite book today.",
-      img: "/img/bg7.jpg"
+      desc: "A celebratory Eid Mubarak website created to share greetings, spread joy, and bring people together through messages of peace and blessings.",
+      img: Eid
     },
   ];
 
   return (
-    <div className="min-h-screen flex items-center justify-center p-10">
+    <section className="min-h-screen flex flex-col items-center p-10">
+
+      {/* Title */}
+      <h2 className="text-white text-7xl font-bold mb-10 font-poppins w-[87%] text-start">
+        Latest Project
+      </h2>
+
+      {/* Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
 
         {cards.map((card, index) => (
@@ -68,6 +75,6 @@ export default function Card() {
         ))}
 
       </div>
-    </div>
+    </section>
   );
 }
