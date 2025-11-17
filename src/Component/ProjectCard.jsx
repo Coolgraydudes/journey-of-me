@@ -13,31 +13,37 @@ export default function Card() {
   const cards = [
     {
       desc: "All-Page offers quality books at affordable prices.",
-      img: AllPage
+      img: AllPage,
+      link: "https://all-pages-henna.vercel.app/"
     },
     {
       desc: "Eduverse is an online learning platform that provides accessible, high-quality educational resources for learners of all levels.",
-      img: Eduverse
+      img: Eduverse,
+      link: "https://fawwazrn.github.io/EDUVERSE/"
     },
     {
       desc: "My first Tailwind slicing project, it's pretty good",
-      img: Slicing
+      img: Slicing,
+      link: "https://website-slicing-with-tailwind.vercel.app/"
     },
     {
       desc: "My first Cisco project, where I began exploring networking concepts and hands-on configurations.",
-      img: Cisco
+      img: Cisco,
     },
     {
       desc: "Hijai is a learning app focused on helping users master tajwid through simple, guided lessons—truly a ‘tajwid teacher in your pocket.’",
-      img: Hijai
+      img: Hijai,
+      link: ""
     },
     {
       desc: "This is a project I made to record the names of people who are late going to the mosque for my school",
-      img: Telat
+      img: Telat,
+      link: "https://catatan-telat.vercel.app/"
     },
     {
       desc: "A celebratory Eid Mubarak website created to share greetings, spread joy, and bring people together through messages of peace and blessings.",
-      img: Eid
+      img: Eid,
+      link: "https://eidmubarak-tailwind.vercel.app/"
     },
   ];
 
@@ -66,7 +72,9 @@ export default function Card() {
                 {card.desc}
               </p>
 
-              <button className="px-5 py-2 bg-yellow-400 rounded-lg text-black font-poppins font-semibold shadow-md hover:bg-yellow-300 transition-all">
+              <button 
+              onClick={() => window.open(card.link, "_blank")}
+              className="border-2 border-lig font-QuickSand font-semibold dark:border-prim text-lig dark:text-prim px-6 py-2 rounded-lg transition-all hover:bg-lig hover:text-nig dark:hover:bg-prim dark:hover:text-black duration-300">
                 VISIT
               </button>
             </div>
