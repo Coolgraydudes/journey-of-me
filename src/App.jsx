@@ -10,6 +10,7 @@ import Prizing from './Component/Prizing'
 import Footer from './Component/Footer'
 import Slider from './Component/Project'
 import DarkModeButton from './Component/DarkModeButton'
+import Card from './Component/ProjectCard'
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Service/>
       {/* <Slider/> */}
       {/* <Projects/> */}
+      <Card/>
       <Doing/>
       <Prizing/>
       <Footer/>
