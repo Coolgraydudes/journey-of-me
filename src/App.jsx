@@ -23,12 +23,9 @@ function App() {
       <About/>
       <Skill/>
       <Service/>
-      {/* <Slider/> */}
-      {/* <Projects/> */}
       <Card/>
       <Doing/>
       <ContactSection/>
-      {/* <Prizing/> */}
       <Footer/>
 
       <DarkModeButton/>
