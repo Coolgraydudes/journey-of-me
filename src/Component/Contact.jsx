@@ -2,7 +2,7 @@ import fr from './assets/fr.jpg'
 
 
 
-export default function ContactSection() {
+export default function Contact() {
   return (
     <div className="w-full py-20 px-6 flex justify-center">
 

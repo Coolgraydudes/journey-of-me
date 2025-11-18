@@ -4,14 +4,11 @@ import Hero from './Component/Hero'
 import About from './Component/About'
 import Skill from './Component/Skill'
 import Service from './Component/Service'
-import Projects from './Component/filed'
 import Doing from './Component/Doing'
-import Prizing from './Component/Prizing'
 import Footer from './Component/Footer'
-import Slider from './Component/Project'
 import DarkModeButton from './Component/DarkModeButton'
 import Card from './Component/ProjectCard'
-import ContactSection from './Component/Contact'
+import Contact from './Component/Contact'
 
 
 function App() {
@@ -25,7 +22,7 @@ function App() {
       <Service/>
       <Card/>
       <Doing/>
-      <ContactSection/>
+      <Contact/>
       <Footer/>
 
       <DarkModeButton/>
