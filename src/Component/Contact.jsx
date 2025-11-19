@@ -16,7 +16,7 @@ export default function Contact() {
           <div className="flex items-start gap-3 mb-4">
             <div className="text-blue-600">📍</div>
             <div>
-              <p className="font-medium">Location</p>
+              <p className="font-medium">Location!</p>
               <p className="text-gray-500 text-sm">123 Main Street</p>
             </div>
           </div>
