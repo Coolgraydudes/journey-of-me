@@ -1,4 +1,4 @@
-import fr from './assets/fr.jpg'
+import fr from './assets/fr.JPG'
 
 
 
