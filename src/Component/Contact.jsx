@@ -41,7 +41,7 @@ export default function Contact() {
         {/* GAMBAR — TIDAK DIBERI ROUNDED */}
         <div className="md:w-1/2 w-full h-80 md:h-auto">
           <img
-            src={fr}
+            src=""
             alt="contact"
             className="w-full h-full object-cover"
           />
