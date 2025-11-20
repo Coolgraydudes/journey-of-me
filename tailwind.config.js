@@ -10,7 +10,8 @@ export default {
       colors: {
         prim : '#fac121',
         nig : '#0E0E0E',
-        lig : '#4ff29a'
+        lig : '#4ff29a',
+        sig : '#1e1e1e',
       },
       fontFamily: {
         BlackPool : ['Blackpool', 'sans-serif;'],
