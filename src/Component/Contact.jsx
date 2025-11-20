@@ -72,7 +72,7 @@ export default function Contact() {
             <div className="flex flex-col">
               <label className="dark:text-prim text-sm font-semibold mb-1">Message</label>
               <textarea
-                className="border dark:bg-sig dark:border-sig dark:text-white border-gray-400  px-4 py-2 h-28 outline-none focus:ring-2 dark:focus:ring-blue-400 focus:ring-lig rounded-lg resize-none rounded-lg"
+                className="border dark:bg-sig dark:border-sig dark:text-white border-gray-400  px-4 py-2 h-28 outline-none focus:ring-2 dark:focus:ring-blue-400 focus:ring-lig rounded-lg resize-none"
               ></textarea>
             </div>
 
