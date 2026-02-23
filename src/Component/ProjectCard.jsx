@@ -13,6 +13,16 @@ export default function Card() {
 
   const cards = [
     {
+      desc: "Shiyo Yamu is a modern Japanese restaurant landing page with a clean UI, structured layout, and interactive menu design for a smooth user experience.",
+      img: Siyo,
+      link: "https://shiyo-yamu.vercel.app/"
+    },
+        {
+      desc: "A modern weather dashboard that displays real-time temperature, conditions, humidity, wind speed, and sunrise/sunset data with a clean and responsive UI.",
+      img: Wheather,
+      link: "https://weather-app-taupe-ten-55.vercel.app/"
+    },
+    {
       desc: "This website is an online bookstore I built, where people can easily explore and buy quality books at affordable prices.",
       img: AllPage,
       link: "https://all-pages-henna.vercel.app/"
@@ -46,16 +56,6 @@ export default function Card() {
       desc: "This is a website I created for Eid Mubarak to share greetings, spread joy, and celebrate the special day in a simple and meaningful way.",
       img: Eid,
       link: "https://eidmubarak-tailwind.vercel.app/"
-    },
-    {
-      desc: "Shiyo Yamu is a modern Japanese restaurant landing page with a clean UI, structured layout, and interactive menu design for a smooth user experience.",
-      img: Siyo,
-      link: "https://shiyo-yamu.vercel.app/"
-    },
-        {
-      desc: "A modern weather dashboard that displays real-time temperature, conditions, humidity, wind speed, and sunrise/sunset data with a clean and responsive UI.",
-      img: Wheather,
-      link: "https://weather-app-taupe-ten-55.vercel.app/"
     },
   ];
 
